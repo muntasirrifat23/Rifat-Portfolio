@@ -2,6 +2,8 @@ import React from 'react';
 import profile from '../../../public/Profile.jpg'
 import { Helmet } from 'react-helmet';
 import Card from './Card';
+import Skills from './Skills';
+import About from '../About/About';
 const Home = () => {
     return (
         <div className='mx-auto'>
@@ -30,14 +32,13 @@ const Home = () => {
             </div>
             
             {/* Projects */}
-            <div className='text-center mx-auto border-black text-4xl text-white font-bold'>
+            <div className='text-center mx-auto border-black text-3xl text-white font-bold'>
                <p>Some Of My Projects</p> 
                <Card></Card>
                 </div>
-
-
-
-
+                
+                <Skills></Skills>
+                <About></About>
         </div>
     );
 };
