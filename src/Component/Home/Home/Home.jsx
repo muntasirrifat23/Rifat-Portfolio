@@ -1,7 +1,7 @@
 import Header from '../Header/Header';
 import Skills from '../Skills/Skills';
-import Projects from '../Projects/Projects';
 import MySelf from '../MySelf/MySelf';
+import Contact from '../Contact/Contack';
 
 const Home = () => {
     return (
@@ -9,7 +9,7 @@ const Home = () => {
             <Header></Header>
             <Skills></Skills>
             <MySelf></MySelf>
-            <Projects></Projects>
+            <Contact></Contact>
         </div>
     );
 };
