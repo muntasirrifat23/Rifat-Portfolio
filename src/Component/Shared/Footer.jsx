@@ -1,7 +1,7 @@
-import React from 'react';
-import { BsWhatsapp, BsGithub } from "react-icons/bs";
-import { BiLogoGmail } from "react-icons/bi";
-
+import { BiLogoGmail } from 'react-icons/bi';
+import { FaGithub } from 'react-icons/fa';
+import { GrLinkedin } from 'react-icons/gr';
+import { ImFacebook2 } from 'react-icons/im';
 const Footer = () => {
     return (
         <div className='mt-10'>
@@ -16,24 +16,13 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className="grid grid-flow-col gap-4">
+                        <span className='mr-4 text-2xl'><a href="https://github.com/muntasirrifat23" target='blank' rel="noopener noreferrer"><FaGithub></FaGithub></a></span>
 
-                            <div className="flex items-center justify-center">
-                                <a href="https://api.whatsapp.com/send?phone=+8801982742757" target="_blank" rel="noopener noreferrer" className='flex'>
-                                    <BsWhatsapp /> <span className='ml-2'>Whats App</span>
-                                </a>
-                            </div>
+                        <span className='mr-4 text-2xl'><a href='mailto:rifat2002m@gmail.com' className='flex'><BiLogoGmail /></a></span>
 
-                        <div className="flex items-center justify-center">
-                            <a href='https://github.com/muntasirrifat23' className='flex'>
-                                <BsGithub /><span className='ml-2'> GitHub </span>
-                            </a>
-                        </div>
+                        <span className='mr-4 text-2xl'><a href="https://www.linkedin.com/in/munshi-muntasir-rifat/" target='blank'><GrLinkedin></GrLinkedin></a> </span>
 
-                        <div className="flex items-center justify-center">
-                            <a href='mailto:rifat2002m@gmail.com' className='flex'>
-                                <BiLogoGmail /><span className='ml-2'> Gmail </span>
-                            </a>
-                        </div>
+                        <span className='mr-4 text-2xl'><a href="https://www.facebook.com/muntasir.rifat.iubat.cse" target='blank'><ImFacebook2></ImFacebook2></a></span>
 
                     </div>
                 </div>

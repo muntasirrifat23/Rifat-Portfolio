@@ -1,20 +1,17 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-
 const Nav = () => {
     const navOption = <>
-            <Link className='ml-3 mt-2' to='/'>Home</Link>
-            <Link className='ml-3 mt-2' to='/instructors'>Project</Link>
-            <Link className='ml-3 mt-2' to='/classes'>About</Link>
-            <Link className='ml-3 mt-2' to='/dashboard'> Contack</Link>
-            <Link className='ml-3 mt-2' to='/login'>Blog</Link>
-           
+        <Link className='ml-3 mt-2' to='/'>Home</Link>
+        <Link className='ml-3 mt-2' to='/projects'>Project</Link>
+        <a className='ml-3 mt-2' href='#myself'> About</a>
+        <a className='ml-3 mt-2' href='#contact'> Contact</a>
+        <a className='ml-3 mt-2' href='#skills'> Skills</a>
+
     </>
 
     return (
-        <div className='text-white bg-slate-800'>
-             {/* <div className="navbar bg-base-100 p-5 fixed mb-15 z-10 w-full bg-opacity-40 bg-black text-white top-0"> */}
-             <div className="navbar text-white text-white bg-slate-800">
+        <div >
+            <div className="navbar text-white bg-base-800">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,7 +29,7 @@ const Nav = () => {
                 </div>
 
                 <div className="navbar-center hidden lg:flex ">
-                    <ul className="menu menu-horizontal px-1 text-xl">
+                    <ul className="menu menu-horizontal px-1 text-xl text-white bg-slate-800">
                         {navOption}
                     </ul>
                 </div>
@@ -40,8 +37,9 @@ const Nav = () => {
 
                 <div className="navbar-end">
                     <button>Resume</button>
-                   
+
                 </div>
+                
 
 
             </div>
