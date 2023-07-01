@@ -26,7 +26,7 @@ const Skills = () => {
     };
 
     return (
-        <div className='mt-20' id='skills'>
+        <div className='mt-20' id='skill'>
             <p data-aos='fade-up' className='text-center text-4xl font-bold text-white'>My Skills</p>
             <div className='justify-evenly lg:flex justify-center items-center'>
                 

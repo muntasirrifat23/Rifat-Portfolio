@@ -12,7 +12,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className='mx-auto'>
+        <div className='mx-auto' id='header'>
             <Helmet>
                 <title>Rifat | Portfolio</title>
             </Helmet>
