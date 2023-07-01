@@ -1,18 +1,18 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { RiMessageFill } from 'react-icons/ri'
 import { MdLocationOn } from 'react-icons/md'
-import { FaFacebookSquare } from 'react-icons/fa'
-import { GrLinkedin } from 'react-icons/gr'
-import { ImTwitter } from 'react-icons/im'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
+import Aos from 'aos';
 
 const Contact = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
     const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
+    const sendEmail = (event) => {
+        event.preventDefault();
 
         emailjs.sendForm('service_zrdaq8m', 'template_c0opmoz', form.current, 'MFLg2Xg-fHwvvYuMW')
             .then((result) => {
@@ -21,7 +21,7 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
-            e.target.reset();
+            event.target.reset();
     };
 
     return (
@@ -31,8 +31,8 @@ const Contact = () => {
                 <div className='rounded-lg lg:p-8'>
                     <h1 className='text-3xl font-bold mb-14'>Please fill out the form and I will respond to you within 24 hours.</h1>
                     <a href=' ' className='flex text-xl font-bold mb-8'><BsFillTelephoneFill className='mt-1 mr-5'></BsFillTelephoneFill> +8801982742757</a>
-                    <a href=' ' className='flex text-xl font-bold mb-8'><RiMessageFill className='mt-1 mr-5 text-2xl'></RiMessageFill> rifat2002m@gmail.com</a>
-                    <h1 className='flex text-xl font-bold'><MdLocationOn className='mr-5 text-3xl'></MdLocationOn   > Gazipur, Bangladesh</h1>
+                    <a href=' ' className='flex text-xl font-bold mb-8'><RiMessageFill className='mt-1 mr-5 text-2xl'></RiMessageFill>rifat2002m@gmail.com</a>
+                    <h1 className='flex text-xl font-bold'><MdLocationOn className='mr-5 text-3xl'></MdLocationOn>Gazipur, Bangladesh</h1>
                  
                 </div>
                 <div data-aos="fade-up"
@@ -42,12 +42,12 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='login-form flex justify-evenly'>
                             <label htmlFor="name" className='text-xl  text-black font-bold'>Name : </label>
-                            <input type="text" className='p-2 lg:w-80 bg-black text-center text-white rounded-xl' name='name' id='' placeholder='Enter Your Name' required/>
+                            <input type="text" className='p-2 lg:w-80 bg-black text-white rounded-xl' name='name' id='' placeholder='Enter Your Name' required/>
                         </div>
                         <br />
                         <div className='login-form flex justify-evenly'>
                             <label htmlFor="email" className='text-xl  text-black font-bold'>Email : </label>
-                            <input type="email" className='p-2 lg:w-80 bg-black text-center text-white rounded-xl' name='email' id='' placeholder='Your Email Address' required />
+                            <input type="email" className='p-2 lg:w-80 bg-black text-white rounded-xl' name='email' id='' placeholder='Your Email Address' required />
                         </div>
                         <br />
                         

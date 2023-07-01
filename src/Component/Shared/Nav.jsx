@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 const Nav = () => {
-    const navOption = <>
+    const navOptions = <>
         <Link className='ml-3 mt-2' to='/'>Home</Link>
-        <Link className='ml-3 mt-2' to='/projects'>Project</Link>
-        <a className='ml-3 mt-2' href='#myself'> About</a>
+        <Link className='ml-3 mt-2' to='/'>Project</Link>
+        <a className='ml-3 mt-2' href='#about'> About</a>
         <a className='ml-3 mt-2' href='#contact'> Contact</a>
         <a className='ml-3 mt-2' href='#skills'> Skills</a>
 
@@ -18,25 +18,25 @@ const Nav = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 font-semibold text-white bg-slate-800">
-                            {navOption}
+                            {navOptions}
                         </ul>
                     </div>
 
-                    {/* Logo name */}
-                    <div className='font-bold text-3xl ml-2' style={{ display: 'flex', alignItems: 'center' }}>
-                        MERN Stack
+                    {/* name */}
+                    <div className='font-bold text-4xl ml-2' style={{ display: 'flex', alignItems: 'center' }}>
+                        MERN Stack Developer
                     </div>
                 </div>
 
                 <div className="navbar-center hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1 text-xl text-white bg-slate-800">
-                        {navOption}
+                        {navOptions}
                     </ul>
                 </div>
 
 
                 <div className="navbar-end">
-                    <button>Resume</button>
+                    <button></button>
 
                 </div>
                 
