@@ -7,9 +7,9 @@ const MySelf = () => {
     }, []);
 
     return (
-        <div className='mt-16 mb-10'>
-            <div data-aos='fade-right' className='flex justify-center mb-10'>
-                <h1 className='text-4xl font-bold'>About My-Self </h1>
+        <div className='mt-20 mb-10'>
+            <div data-aos='fade-right' className='flex justify-center'>
+                <h1 className='text-4xl font-bold mb-5'>About My-Self </h1>
             </div>
             <div className='lg:flex lg:justify-evenly'>
                 <div data-aos='fade-right' className="avatar flex flex-col">
@@ -23,7 +23,7 @@ const MySelf = () => {
 
                     <h1 className='text-3xl font-bold text-white mt-5 lg:text-left text-center'>Hello....</h1>
                     <p className='text-white lg:w-96 lg:text-left text-center lg:p-0 p-3'>
-                        I live in Dhaka, Bangladesh. Over the past year, I have been developing myself in the field of web development. I have a strong passion for exploring the latest technologies and continuously expanding my knowledge. I like to see explore and learn new things.
+                        I live in Gazipur, Bangladesh. Over the past year, I have been developing myself in the field of web development. I have a strong passion for exploring the latest technologies and continuously expanding my knowledge. I like to see explore and learn new things.
                     </p>
                 </div>
                 <div className=' lg:pl-8 lg:text-center'>

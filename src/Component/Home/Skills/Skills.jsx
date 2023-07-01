@@ -26,8 +26,8 @@ const Skills = () => {
     };
 
     return (
-        <div className='mt-10'>
-            <p data-aos='fade-up' className='text-center text-4xl font-bold text-white mb-10'>My Skills</p>
+        <div className='mt-20'>
+            <p data-aos='fade-up' className='text-center text-4xl font-bold text-white'>My Skills</p>
             <div className='justify-evenly lg:flex justify-center items-center'>
                 
                 <div className='justify-center items-center flex'>
