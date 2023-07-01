@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     const navOptions = <>
         <Link className='ml-3 mt-2' to='/'>Home</Link>
-        <Link className='ml-3 mt-2' to='/'>Project</Link>
-        <a className='ml-3 mt-2' href='#about'> About</a>
-        <a className='ml-3 mt-2' href='#contact'> Contact</a>
-        <a className='ml-3 mt-2' href='#skills'> Skills</a>
 
+        <a className='ml-3 mt-2' href='#project'>Project</a>
+        <a className='ml-3 mt-2' href='#mySelf'>My-Self</a>
+        <a className='ml-3 mt-2' href='#skills'> Skills</a>
+        <a className='ml-3 mt-2' href='#contact'> Contact</a>
     </>
 
     return (

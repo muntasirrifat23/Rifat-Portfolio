@@ -7,7 +7,7 @@ const MySelf = () => {
     }, []);
 
     return (
-        <div className='mt-20 mb-10'>
+        <div className='mt-20 mb-10' id='mySelf'>
             <div data-aos='fade-right' className='flex justify-center'>
                 <h1 className='text-4xl font-bold mb-5'>About My-Self </h1>
             </div>

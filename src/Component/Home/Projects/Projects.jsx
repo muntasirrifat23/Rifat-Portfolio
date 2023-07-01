@@ -33,7 +33,8 @@ import camp10 from '../../../../public/AI/Screenshot_3.png'
 
 const Projects = () => {
 return (
-  <>
+  <div id='project'>
+    <>
    <p data-aos='fade-up' className='text-center text-4xl font-bold text-white'>Some of my Projects</p>
    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 flex justify-center mt-5'>
       
@@ -191,6 +192,7 @@ return (
     </div>
   
   </>
+  </div>
    
   );
 };
