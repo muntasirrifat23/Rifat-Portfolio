@@ -9,7 +9,7 @@ const Nav = () => {
                     {/* <div className="flex justify-center items-center text-center"> */}
                     {/* <div className="btm-nav text-black w-2/3 navbar bg-black p-5 fixed mb-15 z-10 bg-opacity-70 text-white bottom-0 rounded-xl text-xl lg:hidden flex justify-center items-center text-center"> */}
                         {/* small */}  
-                        <div className="navbar-center p-5 mb-15 text-white flex justify-center items-center fixed z-10 w-full text-white bottom-0 rounded-xl">
+                        <div className="navbar-center p-5 mb-15 text-white lg:hidden flex justify-center items-center fixed z-10 w-full text-white bottom-0 rounded-xl">
                         <ul className="menu menu-horizontal px-1 text-2xl text-white bg-slate-800 rounded-xl bg-opacity-80 font-bold">
                         <a className='ml-10 mt-2' href='#header'><AiOutlineHome /></a>
                         <a className='ml-10 mt-2' href='#project'><AiOutlineProject /></a>
