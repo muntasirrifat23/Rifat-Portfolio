@@ -18,16 +18,18 @@ import ai5 from '../../../../public/AI/Screenshot_5.png'
 import ai6 from '../../../../public/AI/Screenshot_6.png'
 import ai7 from '../../../../public/AI/Screenshot_6.png'
 
-import camp1 from '../../../../public/AI/Screenshot_1.png'
-import camp2 from '../../../../public/AI/Screenshot_2.png'
-import camp3 from '../../../../public/AI/Screenshot_3.png'
-import camp4 from '../../../../public/AI/Screenshot_4.png'
-import camp5 from '../../../../public/AI/Screenshot_5.png'
-import camp6 from '../../../../public/AI/Screenshot_6.png'
-import camp7 from '../../../../public/AI/Screenshot_6.png'
-import camp8 from '../../../../public/AI/Screenshot_1.png'
-import camp9 from '../../../../public/AI/Screenshot_2.png'
-import camp10 from '../../../../public/AI/Screenshot_3.png'
+// import camp1 from '../../../../public/AI/Screenshot_1.png'
+import camp1 from '../../../../public/Camp/Screenshot_1.png'
+
+import camp2 from '../../../../public/Camp/Screenshot_2.png'
+import camp3 from '../../../../public/Camp/Screenshot_3.png'
+import camp4 from '../../../../public/Camp/Screenshot_4.png'
+import camp5 from '../../../../public/Camp/Screenshot_5.png'
+import camp6 from '../../../../public/Camp/Screenshot_6.png'
+import camp7 from '../../../../public/Camp/Screenshot_6.png'
+import camp8 from '../../../../public/Camp/Screenshot_1.png'
+import camp9 from '../../../../public/Camp/Screenshot_2.png'
+import camp10 from '../../../../public/Camp/Screenshot_3.png'
 
 
 
