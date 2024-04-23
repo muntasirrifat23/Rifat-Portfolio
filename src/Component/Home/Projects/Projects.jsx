@@ -124,7 +124,7 @@ return (
          
          {/* Link */}
           <div className="flex justify-between mt-5">
-                    <a href='https://toy-shop-5ed6f.web.app/' className="card-link flex" target='blank'><BsEye className='mr-2 mt-1'></BsEye> Live Site</a>
+                    <a href='https://amazing-toy.netlify.app/' className="card-link flex" target='blank'><BsEye className='mr-2 mt-1'></BsEye> Live Site</a>
                     <a href='https://github.com/muntasirrifat23/Toy-Shop-Client' className="card-link flex"><BsGithub className='mr-2 mt-1' target='_blank'></BsGithub> Client Code</a>
                     <a href='https://github.com/muntasirrifat23/Toy-Shop-Server' className="card-link flex"><BsGithub className='mr-2 mt-1' target='_blank'></BsGithub> Server Code</a>
                 </div>

@@ -1,4 +1,5 @@
-import profile from '../../../../public/Profile.jpg'
+// import profile from '../../../../public/Cover.jpg'
+import profile from '../../../../public/Formal.jpeg'
 import { Helmet } from 'react-helmet';
 import Aos from 'aos';
 import resume from '../../Resume/Resume of Rifat.pdf'
