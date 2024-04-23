@@ -53,7 +53,7 @@ const Contact = () => {
                         
                         <textarea  name='message' className="textarea textarea-success text-black bg-white lg:w-96 w-50 h-50 mb-5 ml-3" placeholder="Send Message...." required></textarea> <br />
                         <button type='submit' className='btn btn-neutral ml-3 mb-5'>Submit</button>
-                    </form>
+                    </form>  
                 </div>
             </div>
         </div>
