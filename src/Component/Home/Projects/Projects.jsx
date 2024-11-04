@@ -3,24 +3,37 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
+
+
+//Food Court Images
+import food1 from '../../../../public/Food/UserPage/home1.png'
+import food2 from '../../../../public/Food/UserPage/home2.png'
+import food3 from '../../../../public/Food/UserPage/home3.png'
+import food4 from '../../../../public/Food/UserPage/items.png'
+import food5 from '../../../../public/Food/UserPage/order.png'
+import food6 from '../../../../public/Food/UserPage/payment.png'
+import food7 from '../../../../public/Food/UserPage/pOrder.png'
+import food8 from '../../../../public/Food/UserPage/reserve.png'
+import food9 from '../../../../public/Food/UserPage/login.png'
+import food10 from '../../../../public/Food/UserPage/registration.png'
+import foodAdd1 from '../../../../public/Food/Admin Interface/admin h1.png'
+import foodAdd2 from '../../../../public/Food/Admin Interface/admin h2.png'
+import foodAdd3 from '../../../../public/Food/Admin Interface/admin items.png'
+import foodAdd4 from '../../../../public/Food/Admin Interface/admin revenue.png'
+import foodAdd5 from '../../../../public/Food/Admin Interface/admin updateItems.png'
+import foodAdd6 from '../../../../public/Food/Admin Interface/admin addItems.png'
+import foodAdd7 from '../../../../public/Food/Admin Interface/admin user.png'
+
+//Toy Images
 import toy1 from '../../../../public/Toy/Screenshot_1.png'
 import toy2 from '../../../../public/Toy/Screenshot_2.png'
 import toy3 from '../../../../public/Toy/Screenshot_3.png'
 import toy4 from '../../../../public/Toy/Screenshot_4.png'
 import toy5 from '../../../../public/Toy/Screenshot_5.png'
 import toy6 from '../../../../public/Toy/Screenshot_6.png'
-import { BsGithub, BsEye } from "react-icons/bs";
-import ai1 from '../../../../public/AI/Screenshot_1.png'
-import ai2 from '../../../../public/AI/Screenshot_2.png'
-import ai3 from '../../../../public/AI/Screenshot_3.png'
-import ai4 from '../../../../public/AI/Screenshot_4.png'
-import ai5 from '../../../../public/AI/Screenshot_5.png'
-import ai6 from '../../../../public/AI/Screenshot_6.png'
-import ai7 from '../../../../public/AI/Screenshot_6.png'
 
-// import camp1 from '../../../../public/AI/Screenshot_1.png'
+// Camp Images
 import camp1 from '../../../../public/Camp/Screenshot_1.png'
-
 import camp2 from '../../../../public/Camp/Screenshot_2.png'
 import camp3 from '../../../../public/Camp/Screenshot_3.png'
 import camp4 from '../../../../public/Camp/Screenshot_4.png'
@@ -32,6 +45,7 @@ import camp9 from '../../../../public/Camp/Screenshot_2.png'
 import camp10 from '../../../../public/Camp/Screenshot_3.png'
 
 
+import { BsGithub, BsEye } from "react-icons/bs";
 
 const Projects = () => {
 return (
@@ -41,21 +55,31 @@ return (
    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 flex justify-center mt-5'>
       
 
-      {/* Card 1 */}
+      {/* Card 1 Food */}
       <div className='justify-center items-center flex'>
       <div className="card w-96 bg-white text-black shadow-xl">
         <div className="card-body">
           <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-            <SwiperSlide><img src={ai1}></img></SwiperSlide>
-            <SwiperSlide><img src={ai2}></img></SwiperSlide>
-            <SwiperSlide><img src={ai3}></img></SwiperSlide>
-            <SwiperSlide><img src={ai4}></img></SwiperSlide>
-            <SwiperSlide><img src={ai5}></img></SwiperSlide>
-            <SwiperSlide><img src={ai6}></img></SwiperSlide>
-            <SwiperSlide><img src={ai7}></img></SwiperSlide>
+            <SwiperSlide><img src={food1}></img></SwiperSlide>
+            <SwiperSlide><img src={food2}></img></SwiperSlide>
+            <SwiperSlide><img src={food3}></img></SwiperSlide>
+            <SwiperSlide><img src={food4}></img></SwiperSlide>
+            <SwiperSlide><img src={food5}></img></SwiperSlide>
+            <SwiperSlide><img src={food6}></img></SwiperSlide>
+            <SwiperSlide><img src={food7}></img></SwiperSlide>
+            <SwiperSlide><img src={food8}></img></SwiperSlide>
+            <SwiperSlide><img src={food9}></img></SwiperSlide>
+            <SwiperSlide><img src={food10}></img></SwiperSlide>
+            <SwiperSlide><img src={foodAdd1}></img></SwiperSlide>
+            <SwiperSlide><img src={foodAdd2}></img></SwiperSlide>
+            <SwiperSlide><img src={foodAdd3}></img></SwiperSlide>
+            <SwiperSlide><img src={foodAdd4}></img></SwiperSlide>
+            <SwiperSlide><img src={foodAdd5}></img></SwiperSlide>
+            <SwiperSlide><img src={foodAdd6}></img></SwiperSlide>
+            <SwiperSlide><img src={foodAdd7}></img></SwiperSlide>
           </Swiper>
-          <h2 className="card-title font-bold text-2xl">Ai Universe</h2>
-          <p className='text-lg'>Technologies </p>
+          <h2 className="card-title font-bold text-2xl">Food Court</h2>
+          <p className='text-lg'>Restaurant </p>
 
           {/* Technology */}
           <div className='flex text-white '>
@@ -73,16 +97,17 @@ return (
           </div>
           </div>
          {/* Link */}
-          <div className="flex justify-between mt-5">
-                    <a href='https://transcendent-sprite-491db2.netlify.app/' className="card-link flex" target='blank'><BsEye className='mr-2 mt-1'></BsEye> Live Site</a>
-                    <a href='https://github.com/muntasirrifat23/ai-universe' className="card-link flex"><BsGithub className='mr-2 mt-1' target='_blank'></BsGithub> Client Code</a>
-                </div>
+         <div className="flex justify-between mt-5">
+                    <a href='https://food-court-33137.web.app' className="card-link flex" target='blank'><BsEye className='mr-2 mt-1'></BsEye> Live Site</a>
+                    <a href='https://github.com/muntasirrifat23/restaurant-front' className="card-link flex"><BsGithub className='mr-2 mt-1' target='_blank'></BsGithub> Client Code</a>
+                    <a href='https://github.com/muntasirrifat23/restaurant-backend' className="card-link flex"><BsGithub className='mr-2 mt-1' target='_blank'></BsGithub> Server Code</a>
+         </div>
         </div>
       </div>
       </div>
 
 
-      {/* Card 2 */}
+      {/* Card 2 Toy*/}
       <div className='justify-center items-center flex'>
       <div className="card w-96 bg-white text-black shadow-xl">
         <div className="card-body">
@@ -134,7 +159,7 @@ return (
       </div>
       </div>
 
-      {/* Card 3 */}
+      {/* Card 3 Camp */}
       <div className='justify-center items-center flex'>
       <div className="card w-96 bg-white text-black shadow-xl">
         <div className="card-body">
