@@ -84,18 +84,33 @@ return (
           {/* Technology */}
           <div className='flex text-white '>
           <div className="card-actions justify-end">
-            <p className='bg-sky-600 rounded-xl p-3'>HTML5</p>
+            <p className='bg-sky-600 rounded-xl p-3'>ReactJs</p>
           </div>
           <div className="card-actions justify-end">
-            <p className='bg-sky-600 rounded-xl p-3 ml-2'>CSS3</p>
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>Tailwind</p>
           </div>
           <div className="card-actions justify-end">
-            <p className='bg-sky-600 rounded-xl p-3 ml-2'>Bootstrap</p>
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>daisyUi</p>
           </div>
           <div className="card-actions justify-end">
-            <p className='bg-sky-600 rounded-xl p-3 ml-2'>JavaScript</p>
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>Firebase</p>
           </div>
           </div>
+          <div className='flex text-white '>
+          <div className="card-actions justify-end">
+            <p className='bg-sky-600 rounded-xl p-3'>NodeJS</p>
+          </div>
+          <div className="card-actions justify-end">
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>ExpressJS</p>
+          </div>
+          <div className="card-actions justify-end">
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>MongoDB</p>
+          </div>
+          <div className="card-actions justify-end">
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>SSL</p>
+          </div>
+          </div>
+
          {/* Link */}
          <div className="flex justify-between mt-5">
                     <a href='https://food-court-33137.web.app' className="card-link flex" target='blank'><BsEye className='mr-2 mt-1'></BsEye> Live Site</a>
@@ -125,7 +140,7 @@ return (
           {/* Technology */}
           <div className='flex text-white '>
           <div className="card-actions justify-end">
-            <p className='bg-sky-600 rounded-xl p-3'>React</p>
+            <p className='bg-sky-600 rounded-xl p-3'>ReactJs</p>
           </div>
           <div className="card-actions justify-end">
             <p className='bg-sky-600 rounded-xl p-3 ml-2'>Tailwind</p>
@@ -139,13 +154,16 @@ return (
           </div>
           <div className='flex text-white '>
           <div className="card-actions justify-end">
-            <p className='bg-sky-600 rounded-xl p-3'>Node JS</p>
+            <p className='bg-sky-600 rounded-xl p-3'>NodeJS</p>
           </div>
           <div className="card-actions justify-end">
-            <p className='bg-sky-600 rounded-xl p-3 ml-2'>Express JS</p>
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>ExpressJS</p>
           </div>
           <div className="card-actions justify-end">
             <p className='bg-sky-600 rounded-xl p-3 ml-2'>MongoDB</p>
+          </div>
+          <div className="card-actions justify-end">
+            <p className='bg-sky-600 rounded-xl p-3 ml-2'>JWT</p>
           </div>
           </div>
          

@@ -33,39 +33,37 @@ const MySelf = () => {
                     <div className=''>
                         <h1 className='text-2xl  font-bold text-white text-center'>My Programming Knowledge</h1>
                         <div data-aos='fade-left' className='text-white lg:text-left text-center'>
-                            <h1 className='text-xl font-bold text-white mb-2 lg:mt-0 mt-5'>Expertise:</h1>
-                            <div className='lg:p-0 p-10 grid grid-cols-3 lg:grid-cols-5 gap-3'>
+                            <h1 className='text-xl font-bold text-white mb-2 mt-5'>Expertise:</h1>
+                            <div className='lg:p-0 p-10 grid grid-cols-4 lg:grid-cols-5 gap-3 '>
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>HTML5</p>
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>CSS3</p>
-                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Bootstrap</p>
-                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Tailwind</p>
-                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>daisyUI</p>
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>JavaScript</p>
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>ReactJS</p>
-                                <p className='bg-teal-700 h-10 w-32 text-sm rounded-xl p-2 text-center hover:bg-black'>React Bootstrap</p>
-                                <p className='bg-teal-700 h-10 w-32 text-sm rounded-xl p-2 text-center hover:bg-black'>React Router</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>MongoDB</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>NodeJs</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>ExpressJS</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>TypeScript</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Firebase</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>JWT</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Context API</p>
+                                <p className='bg-teal-700 h-10 w-28 text-sm rounded-xl p-2 text-center hover:bg-black'>SSL Commerz</p>
+                                <p className='bg-teal-700 h-10 w-32 text-sm rounded-xl p-2 text-center hover:bg-black'>Responsiveness</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Tailwind</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>daisyUI</p>
                             </div>
                         </div>
 
-                        <div data-aos='fade-right' className='text-white lg:text-left text-center'>
-                            <h1 className='text-xl font-bold text-white mb-2 mt-5'>Comfortable:</h1>
-                            <div className='lg:p-0 p-10 grid grid-cols-3 lg:grid-cols-5 gap-3'>
-                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>MongoDB</p>
-                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Express.js</p>
-                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Node.js</p>
-                                <p className='bg-teal-700 h-10 w-32 text-sm rounded-xl p-2 text-center hover:bg-black'>Context API</p>
-                                <p className='bg-teal-700 h-14 w-28 text-sm rounded-xl p-2 text-center hover:bg-black'>Firebase Authentication</p>
-                            </div>
-                        </div>
+                       
 
                         <div data-aos='fade-up' className='text-white lg:text-left text-center'>
                             <h1 className='text-xl font-bold text-white mb-2 mt-5'>Tools:</h1>
-                            <div className='lg:p-0 p-10 grid grid-cols-3 lg:grid-cols-5 gap-3'>
+                            <div className='lg:p-0 p-10 grid grid-cols-4 lg:grid-cols-5 gap-3'>
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>VS Code</p>
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>GitHub</p>
-                                <p className='bg-teal-700 h-10 w-32 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>Netlify</p>
-                                <p className='bg-teal-700 w-28 h-10 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>Firebase</p>
-                                <p className='bg-teal-700 w-28 h-10 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>npm</p>
+                                <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>Netlify</p>
+                                <p className='bg-teal-700 w-24 h-10 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>Figma</p>
+                                <p className='bg-teal-700 w-24 h-10 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>Firebase</p>
+                                <p className='bg-teal-700 w-24 h-10 text-sm rounded-xl p-2 text-center hover:bg-slate-500'>npm</p>
                             </div>
                         </div>
                     </div>

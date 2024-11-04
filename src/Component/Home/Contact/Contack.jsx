@@ -5,6 +5,10 @@ import { MdLocationOn } from 'react-icons/md'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
 import Aos from 'aos';
+import { FaGithub } from 'react-icons/fa';
+import { GrLinkedin } from 'react-icons/gr';
+import { ImFacebook2 } from 'react-icons/im';
+import { MdEmail } from 'react-icons/md';
 
 const Contact = () => {
     useEffect(() => {
@@ -37,11 +41,11 @@ const Contact = () => {
                 </div>
                 <div data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1500" className='rounded-xl lg:mt-0 mt-12 lg:p-8 bg-white shadow-xl'>
+                    data-aos-duration="1500" className='rounded-xl lg:mt-0 mt-12 lg:p-8 bg-white text-black shadow-xl'>
                     <h1 className='title text-center text-3xl font-bold mb-8'>Text Me</h1>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='login-form flex justify-evenly'>
-                            <label htmlFor="name" className='text-xl  text-black font-bold'>Name : </label>
+                            <label htmlFor="name" className='text-xl text-black font-bold'>Name : </label>
                             <input type="text" className='p-2 lg:w-80 bg-black text-white rounded-xl' name='name' placeholder='Enter Your Name' required/>
                         </div>
                         <br />
@@ -55,7 +59,36 @@ const Contact = () => {
                         <button type='submit' className='btn bg-black text-white ml-3 mb-3'>Submit</button>
                     </form>  
                 </div>
+
+                
             </div>
+
+
+            <div className="flex justify-center">
+        <div className="grid grid-flow-col gap-4 mb-20">
+    <span className="mr-4 text-6xl bg-black text-white p-2 rounded-xl">
+      <a href="https://github.com/muntasirrifat23" target="_blank" rel="noopener noreferrer">
+        <FaGithub />
+      </a>
+    </span>
+    <span className="mr-4 text-6xl bg-orange-600 p-2 rounded-xl">
+      <a href="mailto:rifat2002m@gmail.com" className="flex">
+        <MdEmail />
+      </a>
+    </span>
+    <span className="mr-4 text-6xl bg-blue-600 p-2 rounded-xl">
+      <a href="https://www.linkedin.com/in/munshi-muntasir-rifat/" target="_blank" rel="noopener noreferrer">
+        <GrLinkedin />
+      </a>
+    </span>
+    <span className="mr-4 text-6xl bg-blue-700 p-2 text-white rounded-xl">
+      <a href="https://www.facebook.com/muntasir.rifat.iubat.csew" target="_blank" rel="noopener noreferrer">
+        <ImFacebook2 />
+      </a>
+    </span>
+  </div>
+</div>
+
         </div>
     );
 };

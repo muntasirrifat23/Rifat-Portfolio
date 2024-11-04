@@ -31,7 +31,7 @@ const Skills = () => {
             <p data-aos='fade-up' className='text-center text-4xl font-bold text-white'>My Skills</p>
             <div className=' lg:flex justify-center items-center'>
                 
-                <div className='justify-center items-center flex'>
+                <div className='justify-center items-center flex lg:mx-auto'>
                 <img data-aos='fade-right' className='h-96 mt-7 rounded-xl' src={development} alt="" />
                 </div>
                
