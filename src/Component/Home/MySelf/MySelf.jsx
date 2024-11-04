@@ -15,7 +15,7 @@ const MySelf = () => {
                 <div data-aos='fade-right' className="avatar flex flex-col">
 
 
-                    <div className="h-96 w-96 rounded-full ring ring-success flex justify-center items-center shadow-xl ring-offset-base-100 ring-offset-2 ml-7"
+                    <div className="h-96 w-96 rounded-full ring ring-success flex justify-center items-center shadow-xl ring-offset-base-100 ring-offset-2 mx-auto"
                         data-aos="fade-right"
                         data-aos-duration="800">
                         <img src={cover} alt="" />
@@ -54,7 +54,7 @@ const MySelf = () => {
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Express.js</p>
                                 <p className='bg-teal-700 h-10 w-24 text-sm rounded-xl p-2 text-center hover:bg-black'>Node.js</p>
                                 <p className='bg-teal-700 h-10 w-32 text-sm rounded-xl p-2 text-center hover:bg-black'>Context API</p>
-                                <p className='bg-teal-700 h-10 w-28 h-14 text-sm rounded-xl p-2 text-center hover:bg-black'>Firebase Authentication</p>
+                                <p className='bg-teal-700 h-14 w-28 text-sm rounded-xl p-2 text-center hover:bg-black'>Firebase Authentication</p>
                             </div>
                         </div>
 

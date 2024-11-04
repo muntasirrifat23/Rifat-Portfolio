@@ -42,17 +42,17 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='login-form flex justify-evenly'>
                             <label htmlFor="name" className='text-xl  text-black font-bold'>Name : </label>
-                            <input type="text" className='p-2 lg:w-80 bg-black text-white rounded-xl' name='name' id='' placeholder='Enter Your Name' required/>
+                            <input type="text" className='p-2 lg:w-80 bg-black text-white rounded-xl' name='name' placeholder='Enter Your Name' required/>
                         </div>
                         <br />
                         <div className='login-form flex justify-evenly'>
                             <label htmlFor="email" className='text-xl  text-black font-bold'>Email : </label>
-                            <input type="email" className='p-2 lg:w-80 bg-black text-white rounded-xl' name='email' id='' placeholder='Your Email Address' required />
+                            <input type="email" className='p-2 lg:w-80 bg-black text-white rounded-xl' name='email' placeholder='Your Email Address' required />
                         </div>
                         <br />
                         
-                        <textarea  name='message' className="textarea textarea-success text-black bg-white lg:w-96 w-50 h-50 mb-5 ml-3" placeholder="Send Message...." required></textarea> <br />
-                        <button type='submit' className='btn btn-neutral ml-3 mb-5'>Submit</button>
+                        <textarea  name='message' className="textarea textarea-success text-black bg-white h-50 ml-3 w-96" placeholder="Send Message...." required></textarea> <br />
+                        <button type='submit' className='btn bg-black text-white ml-3 mb-3'>Submit</button>
                     </form>  
                 </div>
             </div>
